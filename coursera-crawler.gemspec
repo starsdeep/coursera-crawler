@@ -6,8 +6,8 @@ require 'coursera-crawler/version'
 Gem::Specification.new do |gem|
   gem.name          = "coursera-crawler"
   gem.version       = Coursera::Crawler::VERSION
-  gem.authors       = ["Matej Gagyi"]
-  gem.email         = ["matej.gagyi@rwe.com"]
+  gem.authors       = ["Matej 'Yin' Gagyi"]
+  gem.email         = ["yinotaurus@gmail.com"]
   gem.description   = %q{TODO: Write a gem description}
   gem.summary       = %q{TODO: Write a gem summary}
   gem.homepage      = ""
@@ -17,3 +17,7 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ["lib"]
 end
+
+gem.add_development_dependency 'rspec'
+gem.add_development_dependency 'rake'
+gem.add_development_dependency 'guard'
